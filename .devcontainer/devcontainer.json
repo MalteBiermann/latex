@@ -13,7 +13,8 @@
 			"extensions": [
 				"ms-vscode-remote.remote-containers",
 				"ms-azuretools.vscode-docker",
-				"James-Yu.latex-workshop"
+				"James-Yu.latex-workshop",
+				"mblode.zotero"
 			]
 		}
 	},
