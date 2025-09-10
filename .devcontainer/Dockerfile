@@ -1,5 +1,5 @@
-FROM ubuntu:noble@sha256:72297848456d5d37d1262630108ab308d3e9ec7ed1c3286a32fe09856619a782
-# ubuntu:noble-20250127
+FROM ubuntu:noble@sha256:9cbed754112939e914291337b5e554b07ad7c392491dba6daf25eef1332a22e8
+# ubuntu:noble-20250805
 
 ENV DEBIAN_FRONTEND=noninteractive
 # Keeps Python from generating .pyc files in the container
