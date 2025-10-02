@@ -32,14 +32,14 @@
 	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "appuser",
 
 	// Mounts
 	"mounts": [
-		"source=${localEnv:HOME}/Library/Mobile Documents/com~apple~CloudDocs/Documents/LaTex,target=/workspace/LaTex,type=bind,consistency=cached"
+		"source=${localEnv:HOME}/Library/Mobile Documents/com~apple~CloudDocs/Documents/LaTeX,target=/workspace/LaTeX,type=bind,consistency=cached"
 	],
 
 	// MonoRepo support
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+	// "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
 	"workspaceFolder": "/workspace"
 }
